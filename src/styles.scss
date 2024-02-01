@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --swiper-navigation-color: #263a79;
+}
+swiper-container::part(bullet-active) {
+    background-color: #263a79;
+}
